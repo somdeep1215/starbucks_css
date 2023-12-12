@@ -1,0 +1,267 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  /* padding: 30px; */
+  
+}
+.navbar{
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 15px;
+  /* position: fixed; */
+}
+.navbar .nav_list{
+  display: flex;
+  /* position: fixed; */
+  /* padding: 500px; */
+  /* justify-content: space-evenly; */
+}
+.nav_content {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: aqua; */
+  /* width: 0%; */
+  margin-right: 30%;
+}
+.nav_content p{
+  margin:15px 20px 0px 50px ;
+}
+.nav_content p:hover{
+  border-bottom: 3px solid green;
+  cursor: pointer;
+}
+
+.logo img{
+  margin-right: 20px;
+  height: 45px;
+}
+.search input{
+  padding-left: 10px;
+  /* margin-top: 20px; */
+  height: 5vh;
+  width:280px ;
+  border: none;
+  box-shadow: 5px 5px 8px;
+  border-radius: 50px;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+.below_txt{
+  display: flex;
+  justify-content: space-between;
+  color: #f9f9f9;
+    font-size: 20px;
+    font-weight: 300;
+    /* margin-bottom: 0; */
+    background-color: rgb(3, 60, 3);
+    padding: 40px 100px 30px 100px;
+}
+.below_txt button{
+  cursor: pointer;
+  width: 14%;
+  height: 5vh;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 15px;
+  border-radius: 50px;
+}
+@media screen and (max-width:991px) {
+.below_nav{
+  display: none;
+} 
+}
+.handcraft h1{
+  padding: 40px 0px 40px 100px;
+  color:  rgb(1, 17, 1);
+  font-size: 30px;
+}
+.craft_img{
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+.craft_img img{
+  width: 110px;
+  border: none;
+  border-radius: 100px;
+}
+.craft_img img:hover{
+  border: 2px solid  rgb(3, 60, 3);
+  opacity: .9;
+  cursor: pointer;
+
+}
+.craft_img p{
+  text-align: center;
+  font-weight: bolder;
+}
+@media screen and (max-width:991px) {
+  
+}
+
+.barista{
+  background-color: rgb(225, 225, 225);
+}
+.barista_img{
+  background-color: aqua;
+  width: 30%;
+  padding: 25px;
+}
+.b_img1{
+  display: flex;
+}
+.b_img1 img{
+  width: 6vw;
+  border: none;
+  border-radius: 10px;
+}
+.price{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+
+/* sri */
+
+/*.container{
+    background-image: url("../images/victoria-5286267_1920.jpg");
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+  
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.topnav {
+    overflow: hidden;
+  
+  }
+  
+  .topnav a {
+    float: left;
+    color: #ed5999;
+    text-align: center;
+    padding:20px ;
+    text-decoration: none;
+    font-size: 22px;
+  }
+
+  .topnav button{
+    width: 170px;
+    height:45px;
+    border-radius: 50px;
+    background-color: #fb2056;;
+    border: none;
+    margin-right: 50px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+
+  } */
+  /*   
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  } */
+
+  
+  
+  /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image_part{
+  width: 100%;
+}
+.image_one{
+  background-image: url(../sri/download.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 700px;
+  height: 850px;
+}
+
+.image_two img{
+
+  position: relative;
+  height: 55vh;
+  top: 250;
+  left: 55;
+}
+.flat_box{
+  background-color:rgba(54, 97, 199, 0.811);
+  padding: 50px 0px 60px 0;
+  width: 45%;
+  color: white;
+  position: relative;
+  text-align: center;
+  left: 27%;
+  bottom: 80;
+  line-height: 3;
+  font-size: 17px;
+}
+.flat_box h4{
+  font-size: 20;
+  font-weight: bolder;
+}
+.flat_box button{
+  margin-top: 10px;
+  width: 55%;
+  height: 40px;
+  border: 2px solid white;
+  color: white;
+  font-size: 15px;
+  border-radius: 50px;
+  background-color: transparent;
+}
+.flat_box:hover{
+transform: scale(1.1);
+transition-duration: 2000ms;
+background-color:rgba(11, 45, 124, 0.811);
+}
+.flat_off{
+  display: flex;
+}
+.flat_txt{
+  margin-top: 35px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.flat_txt h1{
+  font-size: 22px;
+  text-align: center;
+  padding-bottom:35px ;
+}
+.flat_txt p{
+  font-size: 20px;
+  line-height: 2;
+}
+.para_one{
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.flat_down{
+  padding-top: 10px;
+}
+.flat_down span{
+  color: rgb(218, 17, 88);
+} */
